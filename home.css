@@ -1,0 +1,102 @@
+@import "about.css";
+@import "portfolio.css";
+@import "home.css";
+@import "contact.css";
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: darkslategray
+}
+
+.navbar-nav {
+  background-color: #3943a069;
+  padding: 20px 20px;
+
+}
+
+
+.navbar-nav li {
+  margin: 0;
+  font-family: 'Abel', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  display: inline;
+  text-align: right
+}
+
+.navbar-nav li a {
+  color: #FFF;
+  text-align: right;
+  float: right;
+  padding: 10px;
+}
+
+.mainBlock {
+  
+  background-color: darkslategray;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #333;
+ 
+  background-image: linear-gradient(135deg, #17324d69 10%, rgb(90, 128, 128) 100%);
+
+}
+.nameheading p{
+text-align: center;
+
+}
+
+.mainBlock h3{
+  text-align: center;
+  justify-content: space-around;
+}
+
+.description {
+  font-family: 'Abel', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+
+}
+
+.secondBlock {}
+
+
+
+.description {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 450px;
+  margin-left: 450px;
+}
+
+
+
+
+.smallpic {
+  float: right;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 100px;
+
+}
+.mainheading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 450px;
+  margin-left: 450px;
+}
+}
+
